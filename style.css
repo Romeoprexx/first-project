@@ -456,7 +456,7 @@
 
 .cube-side:nth-child(1) {
     transform: rotateY(0deg) translateZ(7.5em);
-    background-image: url("../Assets/steel-building-fabrication-services-500x500.jpg");
+    background-image: url("https://github.com/Romeoprexx/first-project/blob/main/Assets/steel-building-fabrication-services-500x500.jpg");
 
 }
 .cube-side:nth-child(2) {
