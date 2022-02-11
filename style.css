@@ -456,28 +456,28 @@
 
 .cube-side:nth-child(1) {
     transform: rotateY(0deg) translateZ(7.5em);
-    background-image: url("/Assets/images/steel-building-fabrication-services-500x500.jpg");
+    background-image: url("/Assets/steel-building-fabrication-services-500x500.jpg");
 
 }
 .cube-side:nth-child(2) {
     transform: rotateY(90deg) translateZ(7.5em);
-    background-image: url("/Assets/images/8263119_img20181128wa0001_jpeg88f12a3a1eef95a509623b2752913110.jpg");
+    background-image: url("/Assets/8263119_img20181128wa0001_jpeg88f12a3a1eef95a509623b2752913110.jpg");
 }
 .cube-side:nth-child(3) {
     transform: rotateY(180deg) translateZ(7.5em);
-    background-image: url("/Assets/images/custom_coil_winding_big.jpg");
+    background-image: url("/Assets/custom_coil_winding_big.jpg");
 }
 .cube-side:nth-child(4) {
     transform: rotateY(-90deg) translateZ(7.5em);
-    background-image: url("/Assets/images/LD03YFK3KpFvbxy30GM-258942457039-hd-hq-mp4.jpg");
+    background-image: url("/Assets/LD03YFK3KpFvbxy30GM-258942457039-hd-hq-mp4.jpg");
 }
 .cube-side:nth-child(5) {
     transform: rotateX(-90deg) translateZ(7.5em);
-    background-image: url("/Assets/images/Petroleum-pipes-pilling-pipes.jpg");
+    background-image: url("/Assets/Petroleum-pipes-pilling-pipes.jpg");
 }
 .cube-side:nth-child(6) {
     transform: rotateX(90deg) translateZ(7.5em);
-    background-image: url("/Assets/images/tank-farm.jpg");
+    background-image: url("/Assets/tank-farm.jpg");
 }
 
 
