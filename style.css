@@ -1,0 +1,648 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Creepster&family=Grechen+Fuemen&family=Inter:wght@300&family=Montserrat&family=Moon+Dance&family=Orbitron:wght@600&family=PT+Serif&family=Parisienne&family=Quintessential&family=Roboto&family=Rubik+Beastly&family=Satisfy&family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    height: 144px;
+
+}
+
+.navbar-nav {
+    margin-inline-start: auto;
+   
+}
+
+.nav-link {
+    margin: 5px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    
+}
+
+.navbar {
+    padding: 1px;
+}
+
+.active{
+    border-bottom: 5px solid #b80f00;
+    color: white;
+    
+}
+
+
+.dropdown-menu {
+    background-color:slateblue ;
+}
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 300px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight: 900;
+    
+}
+
+.carousel-caption p {
+    width: 60%;
+    font-size: 18px;
+    margin: auto;
+    line-height: 1.9;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #b80f00;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.carousel-caption a:hover {
+  background: linear-gradient(to right,#fc00ff,#00dbde);
+  box-shadow: 0 5px 15px rgba(255, 87, 51);
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: 500;
+    
+   
+}
+.nav-link .active {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active .nav-link:focus, 
+.navbar-light .navbar-nav .active .nav-link:hover {
+    color:white;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    background-color: white;
+    padding: 1px 5px;
+    line-height: 0.3;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 757px) {
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel-caption {
+        bottom: 165px;
+    }
+
+    .carousel-caption h5 {
+       font-size: 17px;
+    }
+
+    .carousel-caption a {
+      padding: 10px 15px;
+      font-size: 15px;
+    }
+
+    .why h3 {
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    
+
+}
+
+.card-img-top {
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    
+}
+
+.wrap {
+    text-align: center;
+
+}
+
+.card-title {
+    color: #1A1B4D;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #474747;
+}
+
+.card {
+    transition: all 1.5s ease;
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    overflow: hidden;
+}
+
+.why {
+    
+    text-align: center;
+}
+
+.why h3 {
+    font-weight: 900;
+    color: #1A1B4D;
+    position: relative;
+    display: block;
+    top: 30px;
+   
+    
+}
+.why-us {
+    min-height: 100vh;
+    width: 100%;
+   
+}
+.card {
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+}
+
+.services-text {
+    color: #1A1B4D;
+    font-weight: 900;
+}
+
+.card-body ul li {
+    list-style-type: none;
+    background: url(https://tristatefabricators.com/wp-content/uploads/2020/05/checkmark22.png) 0px 10px;
+    background-repeat: no-repeat;
+    padding-left: 30px!important;
+    margin: 5px 0!important;
+    padding-top: 7px;
+    font-size: 15px;
+    text-align: start;
+}
+
+
+
+.learner a {
+    text-transform: uppercase;
+    background: #b80f00;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 10px;
+}
+
+.learner a:hover {
+    background: linear-gradient(to right,#fc00ff,#00dbde);
+    box-shadow: 0 5px 15px rgba(255, 87, 51);
+}
+
+.services {
+    background-image: url(https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2VsZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-color: black;
+    padding-bottom: 20px;
+
+    
+}
+
+.why .serv {
+    color: #b80f00;
+}
+
+.qoute {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 100px;
+    position: relative;
+    top: 40px;
+    
+    
+}
+
+.container-2 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    shape-outside: circle();
+}
+
+.container-2 h1 {
+    font-size: 2.5em;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Grechen Fuemen', cursive;
+    color: #1A1B4D;
+}
+
+.container-2 #img1 {
+    float: left;
+    border-radius: 0 50% 50% 0;
+    padding-right: 30px;
+}
+
+.container-2 #img2 {
+    float: right;
+    border-radius:  50% 0 0 50% ;
+    padding-left: 30px;
+}
+
+.container-2 p {
+    text-align: justify;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #474747;
+}
+
+.col-md-3 img {
+    width: 174px;
+    height: 144px;
+    cursor: pointer;
+    
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.col-md-2 a {
+    text-decoration: none;
+}
+
+.col-md-3 a {
+    text-decoration: none;
+}
+
+.p-4 a {
+    text-decoration: none;
+    
+}
+
+.text-lg-start {
+    background-image: url(https://swantonweld.com/wp-content/themes/swc-2020/img/dark-brick-wall.png);
+}
+
+.me-5 span {
+    color: white;
+}
+
+.col-md-3 h6 {
+    color: white;
+}
+
+.col-md-2 h6 {
+    color: white;
+}
+
+.col-md-2 p {
+    color: white;
+}
+
+.col-md-2 p:hover {
+    color: #b80f00;
+}
+
+.col-md-3 p {
+    color: white;
+}
+
+.col-md-3 p:hover {
+    color: #b80f00;
+}
+
+.col-md-4 h6 {
+    color: white;
+}
+
+.col-md-4 p {
+    color: white;
+}
+
+.copY {
+    color: white;
+}
+
+.copy p {
+    color: white;
+}
+
+.bi-heart-fill {
+    color: red;
+}
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1513710239666-c29e2c09dc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWV0YWwlMjBmYWJyaWNhdGlvbnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    height: 20vh;
+}
+
+.con-1 h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+
+.cube-container {
+	position: relative;
+	width: 30rem;
+	height: 30rem;
+	margin: 5rem auto 6rem;
+	perspective: 100rem;
+    top: 100px;
+    
+}
+
+#gallery {
+    background-color: black;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+.clicks {
+    color: white;
+    position: relative;
+    top: 250px;
+}
+
+
+
+
+
+
+
+
+
+.cube-container {
+    width: 15em;
+    height: 15em;
+    text-align: center;
+    perspective: 45em;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition-duration: 2s;
+}
+
+.cube-side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.radio-button {
+    margin-bottom: 5em;
+}
+
+.cube-side:nth-child(1) {
+    transform: rotateY(0deg) translateZ(7.5em);
+    background-image: url("/Assets/images/steel-building-fabrication-services-500x500.jpg");
+
+}
+.cube-side:nth-child(2) {
+    transform: rotateY(90deg) translateZ(7.5em);
+    background-image: url("/Assets/images/8263119_img20181128wa0001_jpeg88f12a3a1eef95a509623b2752913110.jpg");
+}
+.cube-side:nth-child(3) {
+    transform: rotateY(180deg) translateZ(7.5em);
+    background-image: url("/Assets/images/custom_coil_winding_big.jpg");
+}
+.cube-side:nth-child(4) {
+    transform: rotateY(-90deg) translateZ(7.5em);
+    background-image: url("/Assets/images/LD03YFK3KpFvbxy30GM-258942457039-hd-hq-mp4.jpg");
+}
+.cube-side:nth-child(5) {
+    transform: rotateX(-90deg) translateZ(7.5em);
+    background-image: url("/Assets/images/Petroleum-pipes-pilling-pipes.jpg");
+}
+.cube-side:nth-child(6) {
+    transform: rotateX(90deg) translateZ(7.5em);
+    background-image: url("/Assets/images/tank-farm.jpg");
+}
+
+
+.radio-button:checked ~ .cube {
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.radio-button:nth-child(1):checked ~ .cube { 
+    transform: rotateX(-15deg) rotateY(20deg);
+}
+.radio-button:nth-child(2):checked ~ .cube { 
+    transform: rotateX(-15deg) rotateY(180deg);
+}
+.radio-button:nth-child(3):checked ~ .cube { 
+    transform: rotateX(-15deg) rotateY(90deg);
+}
+.radio-button:nth-child(4):checked ~ .cube { 
+    transform: rotateX(-15deg) rotateY(-90deg);
+}
+.radio-button:nth-child(5):checked ~ .cube { 
+    transform: rotateX(-105deg) rotateY(0deg);
+}
+.radio-button:nth-child(6):checked ~ .cube { 
+    transform: rotateX(75deg) rotateY(0deg);
+}
+
+
+.praise-img {
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.page-id-3755 .wpcf7-form .mycheckboxgroup>.wpcf7-list-item {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    padding: 3px;
+}
+
+.bigform .wpcf7-form .mycheckboxgroup>.wpcf7-list-item {
+    display: block;
+}
+
+#content .wpb_alert p:last-child, #content .wpb_text_column :last-child, #content .wpb_text_column p:last-child, .vc_message_box>p:last-child, .wpb_alert p:last-child, .wpb_text_column :last-child, .wpb_text_column p:last-child {
+    margin-bottom: 0;
+}
+
+span.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+
+.bigform .wpcf7-form .leftside, .bigform .wpcf7-form .rightside {
+    max-width: 450px;
+    padding: 20px;
+}
+
+.bigform .rightside {
+    float: right;
+    
+}
+
+.bigform .wpcf7-form .leftside, .bigform .wpcf7-form .rightside {
+    max-width: 450px;
+    padding: 20px;
+}
+
+.bigform .leftside {
+    float: left;
+}
+
+#content .wpb_alert p:last-child, #content .wpb_text_column :last-child, #content .wpb_text_column p:last-child, .vc_message_box>p:last-child, .wpb_alert p:last-child, .wpb_text_column :last-child, .wpb_text_column p:last-child {
+    margin-bottom: 0;
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+
+.bigform .wpcf7-form .mycheckboxgroup {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.page-id-3755 .wpcf7-form .mycheckboxgroup>.wpcf7-list-item {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    padding: 3px;
+}
+
+span.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+
+.bigform .wpcf7-form .mycheckboxgroup>.wpcf7-list-item {
+    display: block;
+}
+
+bigform .wpcf7-form .fullwidthform {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.bigform .wpcf7-form label {
+    width: 100%;
+}
+
+
+
+.form-group textarea, .wpcf7 textarea {
+    height: 212px;
+    max-width: 100%;
+}
+
+.wpcf7-textarea {
+    height: 212px;
+    min-width: 100%;
+}
+
+.wpcf7-recaptcha {
+    display: none;
+}
+
+.bigform .wpcf7-form input[type=submit] {
+    background: #1A1B4D;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 1.2em;
+    margin: 0 auto;
+    transition: .3s;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
